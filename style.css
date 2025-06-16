@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#color-generator{
+    background-color: #ccc;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#color-generator button{
+    padding:16px 40px;
+    border: none;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#color-generator .box{
+    height:300px;
+    width:300px;
+    background-color: black;
+    margin-left: 30px;
+    border-radius: 12px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color:#fff;
+}
